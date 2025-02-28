@@ -1,0 +1,9 @@
+streamlit
+langchain
+pymongo
+langchain-google-genai
+langchain-community
+pypdf
+PyPDF2
+fitz
+pymupdf
