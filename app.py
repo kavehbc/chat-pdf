@@ -1,9 +1,7 @@
 import streamlit as st
 from PyPDF2 import PdfReader
 from langchain.chains import RetrievalQA
-# from langchain.chains.question_answering import load_qa_chain
 from langchain_google_genai.llms import GoogleGenerativeAI
-import base64
 import os
 from src.mongodb import create_search_vector_index, setup_mongodb
 from src.embeddings import create_embeddings
